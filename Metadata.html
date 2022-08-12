@@ -1,0 +1,20 @@
+Entitätsmetadaten
+Die Metadaten für eine Dynamics 365 Customer Engagement (on-premises)-Organisation enthalten die Definitionen für die Entitäten, Attribute, und die Beziehungen zwischen den Entitäten. Weitere Informationen finden Sie unter Metadaten und die Datenmodelle in Dynamics 365 Customer Engagement (on-premises). Als Entwickler kommt es oft vor, dass es nützlich ist, alle Metadaten für eine Organisation suchen zu können. Es gibt verschiedene Möglichkeiten, um die Metadaten suchen und darauf verweisen zu können:
+
+Sie können den Entitätsmetadaten-Browser verwenden, um Entitäten und ihre Eigenschaften in Dynamics 365 Customer Engagement (on-premises) anzuzeigen. Details finden Sue unter Metadaten für Ihre Organisation durchsuchen.
+
+Sie können die Metadaten für Ihre Organisation anhand dieser Beispiele generieren:
+
+Beispiel: Speichern von Entitätsmetadaten in einer Datei
+
+Beispiel: Speichern von Entitätsberechtigungsinformationen in eine Datei
+
+Beispiel: Speichern von Attributmetadaten in eine Datei
+
+Beispiel: Speichern von Entitätsbeziehungsinformationen in einer Datei
+
+Beispiel: Speichern eines globalen Optionssatzes in einer Datei
+
+Sie können folgende Arten von Beziehungen zwischen Entitäten erstellen: 1:n, n:1 und n:n. Die Datensätze für n:n-Beziehungen werden in einer Überschneidungsentität gespeichert. Nachdem eine Beziehung definiert ist, verwenden Sie die Nachricht AssociateRequest oder die Associate-Methode, um eine Verbindung zwischen den angegebenen Datensätzen zu erstellen, und verwenden Sie die Nachricht DisassociateRequest oder die Disassociate-Methode, um eine Verbindung zwischen den angegebenen Datensätzen zu entfernen.
+
+Im 1:n- und n:1-Beziehungen gelten einige Aktionen des Datensatzes der übergeordneten Entität für die Datensätze der untergeordneten Entität. Die Aktionen, die kaskadierende Verhaltensweisen besitzen, umfassen: Zuweisen, Löschen, Zusammenführen, Freigeben, Freigabe aufheben, Erneut überordnen. Weitere Informationen finden Sie unter Verhalten von Entitätsbeziehungen.
